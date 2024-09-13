@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Exo 2", sans-serif;
+}
+.parent{
+    width: 100%;
+    height: max-content;
+    /* background-color: rgb(46, 46, 73); */
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    color: white;
+    justify-content: space-between;
+    position: relative;
+    background-image: url(https://blog.camaralia.com/wp-content/uploads/2016/01/Star-Wars-Blu-ray1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.starwar{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.411);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.characters{
+    /* background-image: url(https://lumiere-a.akamaihd.net/v1/images/star-wars-outlaws-story-trailer-interview-article-featu_336a22a4.jpeg?region=350,0,900,900);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; */
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.prof{
+    border: solid 1px red;
+    border-radius: 10px;
+}
+ul{
+    list-style: none;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+    /* display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between; */
+    height: 80%;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(5, 250px);
+    grid-template-rows: repeat(2, 250px);
+    /* background-color: red; */
+}
+/* li{
+    background-color: red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 10%;
+} */
+.pic{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.profile{
+    width: 30%;
+    height: 25%;
+    background-color: red;
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+.profilepicture{
+    width: 40%;
+    height: 100%;
+    /* border-radius: 50%; */
+    /* background-color: green; */
+}
+/* .info{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 20px;
+    background-color: blue;
+} */
+.characters>h2{
+    cursor: pointer;
+    font-size: 30px;
+}
+/* .profile2{
+    width: 20%;
+    height: 35%;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+} */
+img{
+    /* width: 50%; */
+    height: 50%;
+}
