@@ -23,12 +23,12 @@ const imageArray = [
   "https://media.cnn.com/api/v1/images/stellar/prod/231002162004-01-c3po-head-star-wars-auction-restricted.jpg?c=original",
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfScnx-t7Xm97Wzk9ngTPLRqAaUQa_Qj__xA&s",
   "https://nsabers.com/cdn/shop/articles/bebec223da75d29d8e03027fd2882262.png?v=1708781179",
-  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzAW3We4bzBZ2Y2jnFGjkcmrdmCtcMRhX8gg&s",
+  "https://i0.wp.com/marvelousgeeksmedia.com/wp-content/uploads/2022/07/which-leia-are-you-TALL.jpeg?ssl=1",
   "https://www.starwarsaddicted.it/wp-content/uploads/2022/05/databank_owenlars_01_169_effce0f8.jpeg",
   "https://swrpggm.com/wp-content/uploads/2022/05/Beru-Lars_FE.jpg",
   "https://lumiere-a.akamaihd.net/v1/images/r5-d4_main_image_7d5f078e.jpeg?region=466%2C0%2C888%2C666",
   "https://lumiere-a.akamaihd.net/v1/images/image_157136c7.png?region=0,178,816,459",
-  "https://www.liveabout.com/thmb/F5lfgFptU9DNTDCT-xNEtot0lQ0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/EP2-IA-60435_R_8x10-56a83bea3df78cf7729d314a.jpg"
+  "https://upload.wikimedia.org/wikipedia/en/3/32/Ben_Kenobi.png"
 
 ]
 
