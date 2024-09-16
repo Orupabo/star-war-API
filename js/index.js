@@ -32,31 +32,14 @@ const imageArray = [
 
 ]
 
-// fetch('https://swapi.dev/api/people')
-//     .then(res => {
-//       return res.json();
-        
-//     })
-//     .then(data => {
-//         data.results.forEach(user => {
-//           const markup = `<li>${user.name}</li>`;
 
-//           document.querySelector('ul').insertAdjacentHTML('beforeend', markup);
-//           // document.querySelector('ul').innerHTML = `${user.name}`
-//           document.querySelector('#username').innerHTML = `${user.name}`;
-//           document.querySelector('#height').innerHTML = `${user.height}`;
-//           document.querySelector('#gender').innerHTML = `${user.gender}`;
 
-//               // markup.addEventListener('click', () => displayUserDetails(user));
-//               // userList.appendChild(markup);
-//         });
+const userList = document.getElementById('user-list');
+const userName = document.getElementById('user-name');
+const userGender = document.getElementById('user-gender');
+const userHeight = document.getElementById('user-height');
 
-        
-      
-//     })
-//     .catch(error => console.log(error));
-
-function displayUserDetails() {
+function displayUser() {
   fetch('https://swapi.dev/api/people')
    .then(res => res.json())
    .then((data) => {
@@ -73,12 +56,18 @@ function displayUserDetails() {
       </div>`
       
       profile2.innerHTML += imageHTML
+
+      
     });
    })
-    // userName.textContent = data.username;
-    // userGender.textContent = data.gender;
-    // userHeight.textContent = data.height;
+
         
 }
 
-displayUserDetails();
+function displayUserDetails(user) {
+  userName.textContent = user.name;
+  userGender.textContent = user.gender;
+  userHeight.textContent = user.height;
+  
+}
+displayUser();
